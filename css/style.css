@@ -9,30 +9,19 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: #212529;
   text-decoration: underline;
-}
-
-.tall img {
-  margin: 0 auto;
-  display: block;
-  align-items: center;
-  max-width: 50%;
 }
 
 .mobile {
   display: none;
 }
 
-#topper {
-  /* margin-top: -10%; */
-}
-
 .title {
   text-align: center !important;
   justify-content: center;
   position: relative;
-  margin-top: 17%;
+  margin-top: 10%;
   display: flex;
   font-size: 50px;
   color: #333333;
@@ -47,25 +36,6 @@ a {
   color: #333333;
   top:50%;
   font-size: 22px;
-}
-
-.byline {
-  text-align: center !important;
-  justify-content: center;
-  position: absolute;
-  display:flex;
-  float: right;
-  margin-bottom: auto;
-  color: #ffffff;
-  top:65%;
-  left:67%;
-  font-size: 18px;
-}
-
-.first-letter {
-  font-size: 55px;
-  line-height: 55px;
-  float: left;
 }
 
 .caption {
@@ -111,24 +81,11 @@ a {
     text-align: center !important;
     /* display: block; */
     justify-content: center;
-    position: absolute;
+    position: relative;
     color: #333333;
-    top: 50%;
-    left: 11%;
-    font-size: 20px;
+    margin-top: 8%;
+    font-size: 25px;
     font-weight: bold;
-  }
-
-  .byline {
-    text-align: center !important;
-    justify-content: center;
-    position:absolute;
-    color: #ffffff;
-    /* display: block; */
-    top: 53%;
-    left:35%;
-    padding-top: 2%;
-    font-size: 16px;
   }
 
   .tall-mobile {
@@ -139,13 +96,6 @@ a {
 
   .mobile > iframe {
     margin-left: 1%;
-  }
-
-  .first-letter {
-    font-size: 50px;
-    line-height: 40px;
-    float: left;
-    text-indent: 0;
   }
   
   .tall {
