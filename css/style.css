@@ -83,9 +83,19 @@ a {
     justify-content: center;
     position: relative;
     color: #333333;
-    margin-top: 8%;
-    font-size: 25px;
+    margin-top: 5%;
+    font-size: 20px;
     font-weight: bold;
+  }
+
+  .subtitle {
+    text-align: center !important;
+    justify-content: center;
+    position: relative;
+    margin-bottom: auto;
+    color: #333333;
+    top:50%;
+    font-size: 16px;
   }
 
   .tall-mobile {
