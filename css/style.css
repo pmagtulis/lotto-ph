@@ -1,0 +1,158 @@
+html,
+body {
+  font: 'Roboto';
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.tall img {
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  max-width: 50%;
+}
+
+.mobile {
+  display: none;
+}
+
+#topper {
+  /* margin-top: -10%; */
+}
+
+.title {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-top: 17%;
+  display: flex;
+  font-size: 50px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  color: #333333;
+  top:50%;
+  font-size: 22px;
+}
+
+.byline {
+  text-align: center !important;
+  justify-content: center;
+  position: absolute;
+  display:flex;
+  float: right;
+  margin-bottom: auto;
+  color: #ffffff;
+  top:65%;
+  left:67%;
+  font-size: 18px;
+}
+
+.first-letter {
+  font-size: 55px;
+  line-height: 55px;
+  float: left;
+}
+
+.caption {
+  font-size: 11px;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+.footer_container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-right: 44%;
+  margin-left: 44%;
+}
+
+/* When it's less than 500 pixels wide */
+
+@media only screen and (max-width: 700px) and (min-width: 510px) {
+
+  .mobile {
+    display: none;
+  }
+  
+}
+
+/* When it's less than 500 pixels wide */
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .title {
+    text-align: center !important;
+    /* display: block; */
+    justify-content: center;
+    position: absolute;
+    color: #333333;
+    top: 50%;
+    left: 11%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .byline {
+    text-align: center !important;
+    justify-content: center;
+    position:absolute;
+    color: #ffffff;
+    /* display: block; */
+    top: 53%;
+    left:35%;
+    padding-top: 2%;
+    font-size: 16px;
+  }
+
+  .tall-mobile {
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 12%;
+  }
+
+  .mobile > iframe {
+    margin-left: 1%;
+  }
+
+  .first-letter {
+    font-size: 50px;
+    line-height: 40px;
+    float: left;
+    text-indent: 0;
+  }
+  
+  .tall {
+    display: none;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
